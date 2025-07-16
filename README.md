@@ -11,7 +11,7 @@ Follow these steps to set up and run PhysioAI:
 1. **Clone the branch to the directory of your choice:**
 
     ```bash
-    git clone --branch production --single-branch git@github.com:andmanousakis/PhysioAI.git
+    git clone --branch development --single-branch git@github.com:andmanousakis/PhysioAI.git
     ```
 
 2. **Create virtual environment:**
