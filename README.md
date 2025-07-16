@@ -48,4 +48,6 @@ Follow these steps to set up and run PhysioAI:
 
 ## Important Notes
 
-Avoid running multiple Python environments (e.g., both venv and conda's base) simultaneously. This can cause Python to mix paths, resulting in unexpected errors.
+1. Avoid running multiple Python environments (e.g., both venv and conda's base) simultaneously. This can cause Python to mix paths, resulting in unexpected errors.
+
+2. You need an OpenAI API key.
