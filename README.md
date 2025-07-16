@@ -8,32 +8,38 @@ PhysioAI is an intelligent assistant designed for physiotherapists to streamline
 
 Follow these steps to set up and run PhysioAI:
 
-1. **Create virtual environment:**
+1. **Clone the branch to the directory of your choice:**
+
+    ```bash
+    git clone --branch production --single-branch git@github.com:andmanousakis/PhysioAI.git
+    ```
+
+2. **Create virtual environment:**
    ```bash
    make venv
    ```
 
-2. **Activate virtual environment:**
+3. **Activate virtual environment:**
     ```bash
    source venv/bin/activate
    ```
 
-3. **Q1 – Apply the data transformation:**
+4. **Q1 – Apply the data transformation:**
     ```bash
     make transform
     ```
 
-4. **Run unit test on Q1**
+5. **Run unit test on Q1**
     ```bash
     pytest tests/Q1_unit_test.py
     ```
 
-5. **Run unit test on Q2A:**
+6. **Run unit test on Q2A:**
     ```bash
     pytest tests/Q2_unit_test.py
     ```
 
-6. **Q2A – Running examples for testing:**
+7. **Q2A – Running examples for testing:**
     ```bash
     make get_message SESSION_GROUP="r+KlNwrwjJuFiuYXoFbY+/XSOUs="
     make get_message SESSION_GROUP="uiCjoT07wEEYJhLxDQyJfY7Xh/A="
